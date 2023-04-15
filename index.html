@@ -18,13 +18,13 @@
     <section>
       <!-- MOBILE NAVIGATION -->
       <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
-        <a href="#home" class="w3-bar-item w3-button w3-hover-none">Annamaria Ortu</a>
+        <a href="Index.html" class="w3-bar-item w3-button w3-hover-none w3-border-bottom w3-border-light-grey w3-hover-border-greeny">Annamaria Ortu</a>
         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
       </div>
       <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
-        <a href="#research" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">Research</a>
-        <a href="#talks" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">Talks</a>
-        <a href="#links" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">Links</a>
+        <!--<a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-greeny w3-hover-text-greeny" onclick="toggleNavigation()">About</a>-->
+        <a href="Index.html#home" class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-text-greeny" onclick="toggleNavigation()">Home</a>
+        <a href="Talks.html#talks" class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-text-greeny" onclick="toggleNavigation()">Talks</a>
       </div>
 
       <!-- SOCIAL SECTION -->
@@ -54,7 +54,7 @@
         </div> 
         <!--CV DOWNLOAD BUTTON-->
         <div class="w3-container w3-padding-16">
-          <a href="./CV_AOrtu.pdf" class="w3-light-gray w3-hover-light-gray w3-button w3-round-small w3-hover-pale-green w3-padding-large" target="_blank" download="resume.pdf">
+          <a href="./CV_AOrtu.pdf" class="w3-light-gray w3-hover-light-gray w3-button w3-round w3-hover-pale-green w3-padding-large" target="_blank" download="resume.pdf">
             <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
             <span class="w3-margin-left download-text">DOWNLOAD CV</span>
           </a>
@@ -62,13 +62,18 @@
       </section>
 
       <!--CV CONTENT SECTION-->
-      <section class="w3-threequarter w3-padding-large w3-right">
+      <section id="home" class="w3-threequarter w3-padding-large w3-right">
         <!--DESKTOP NAVIGATION-->
-        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+        <!--<div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
           <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-pale-green" style="border-width: 2px !important;">Annamaria Ortu</a>
           <a href="#links" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Links</a>
           <a href="#research" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Research</a>
           <a href="#activities" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Activities</a>
+        </div>-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-greeny" style="border-width: 2px !important;">Annamaria Ortu</a>
+          <a href="Talks.html" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-greeny w3-hover-text-greeny w3-right w3-hide-small" style="border-width: 2px !important;">Talks</a>
+          <a href="Index.html" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-greeny w3-hover-text-greeny w3-right w3-hide-small" style="border-width: 2px !important;">Home</a>
         </div>
         <!--<div class="content-container w3-margin-top-2">
           HOME SECTION
@@ -79,30 +84,32 @@
           </div>-->
 
           <!--ABOUT SECTION-->
-          <div id="home" class="w3-container w3-padding-large w3-margin-top-10-percent w3-serif">
+          <div id= "about" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
             <h2>ABOUT</h2>
             <p class="w3-container w3-margin-top-2"> 
-                I am a PhD student in Geometry at <a href="https://www.sissa.it">SISSA</a>, Trieste, Italy. I start the fourth and final year in October 2022. My supervisors are <a href="https://www.maths.gla.ac.uk/~rdervan/">Ruadhai Dervan</a> and <a href="https://mate.unipv.it/stoppa/">Jacopo Stoppa</a>
+                I am a PhD student in Geometry at <a href="https://www.sissa.it">SISSA</a>, Trieste, Italy. I started the fourth and final year in October 2022. My supervisors are <a href="https://www.maths.gla.ac.uk/~rdervan/">Ruadhai Dervan</a> and <a href="https://mate.unipv.it/stoppa/">Jacopo Stoppa</a>.
             </p>
           </div>
 
           <!--RESEARCH-->
-          <div id="research" class="w3-container w3-padding-large w3-margin-top-10-percent w3-serif">
+          <div id="research" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
             <h2>RESEARCH</h2>
             <div class="w3-container w3-margin-top-2 w3-serif">
-              <p>My research focus is on complex geometry, mainly Kähler manifolds with special curvature properties and the link with algebro-geometric stability conditions and moduli problems. Currently, I am studying special Kähler metrics on holomorphic fibrations and their geometry.
+              <p>My research focus is on complex geometry, mainly Kähler manifolds with special curvature properties and the link with algebro-geometric stability conditions and moduli problems. Currently, I am studying special Kähler metrics on holomorphic fibrations, their geometry and their moduli spaces.
               </p>
               </div>
             <h3>Article</h3>
-            <ul>
-              <li>
-                  <b>Optimal symplectic connections and deformations of holomorphic submersions</b>. arXiv: <a href="https://arxiv.org/abs/2201.12562">2201.12562</a>. <i>(Advances in Mathematics, Vol 414, 2023. <a href="https://doi.org/10.1016/j.aim.2023.108868">https://doi.org/10.1016/j.aim.2023.108868</a>.)</i>
-              </li>
-            </ul>
+            <div>
+              <ul>
+                <li>
+                    <b>Optimal symplectic connections and deformations of holomorphic submersions</b>. arXiv: <a href="https://arxiv.org/abs/2201.12562">2201.12562</a>. <i>(Advances in Mathematics, Vol 414, 2023. <a href="https://doi.org/10.1016/j.aim.2023.108868">https://doi.org/10.1016/j.aim.2023.108868</a>.)</i>
+                </li>
+              </ul>
+            </div>
           </div>
 
         <!--ACTIVITIES-->
-        <div id="activities" class="w3-container w3-padding-large w3-margin-top-10-percent w3-serif">
+        <div id="activities" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
             <h2>ACTIVITIES</h2>
             <div class="w3-container w3-margin-top-2 w3-serif">
               <p>I completed a Bachelor in Mathematics at the University of Milan "Statale" in 2017. Since then, I live in Trieste, where I did a Master in Mathematics under the supervision of Jacopo Stoppa. In 2022 I spent some time at the University of Cambridge as a visiting PhD student, hosted by Ruadhaí Dervan.
@@ -114,11 +121,13 @@
                     </li>
                 </ul>
               </div>
-            <h3>Past and upcoming talks</h3>
+            <h3 onclick="myFunction()">Past and upcoming <a href="Talks.html#talks">talks</a></h3>
+            <div class="w3-container w3-serif">
+            </div>
           </div>
 
           <!--LINKS-->
-          <div id="links" class="w3-container w3-padding-large w3-margin-top-10-percent w3-serif">
+          <div id="links" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
             <h2>LINKS</h2>
             <div class="w3-container w3-margin-top-2" style="font-weight: 500;">
               <p>
@@ -177,5 +186,17 @@
       // Script to load feather icons
       feather.replace()
     </script>
+    <script>
+      // Function to create a show/hide div
+      function showhide() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+      
   </body>
 </html>
