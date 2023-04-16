@@ -28,6 +28,7 @@ body * {
     font-family: Sanchez; 
     border: none !important;
   }
+
   a {
     font-family: Sanchez; 
     color: #38761d;
@@ -44,6 +45,10 @@ body * {
   footer a {
     color: #F3F3f3;
     text-shadow: 1px 1px 2px black;
+  }
+
+  footer p span:hover{
+    background-color: #4B4B4B;    ;
   }
 
   .w3-hover-border-greeny:hover{
