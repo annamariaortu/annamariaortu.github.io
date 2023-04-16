@@ -33,6 +33,19 @@ body * {
     color: #38761d;
   }
 
+  footer{
+    background-image: url('./cambridge.png');
+    background-size: cover;
+    background-position: center;
+    color: #F3F3f3;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  footer a {
+    color: #F3F3f3;
+    text-shadow: 1px 1px 2px black;
+  }
+
   .w3-hover-border-greeny:hover{
     border-color:#38761d!important
   }
