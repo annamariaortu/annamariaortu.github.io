@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>W3.CSS Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            body{
+                background-color: #052a42;
+                font-family: "Sanchez", serif;
+                color:#F3F3F3;
+            }
+
+            h1 {
+                font-family: "Montserrat", sans-serif;
+                letter-spacing: 6px;
+            }
+
+            .w3-row-padding img {
+                margin-bottom: 12px;
+            }
+        </style>
+    </head>
+<body>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width:1500px">
+
+        <!-- Mobile menu-->
+        <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-border-bottom w3-border-blue w3-hover-text-white w3-hover-border-greeny" style="color:#F3F3F3;">Annamaria Ortu</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" style="color:#F3F3F3;" onclick="toggleNavigation()">&#9776;</a>
+        </div>
+        <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+            <!--<a href="#research" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-greeny w3-hover-text-greeny" onclick="toggleNavigation()">Research</a>-->
+            <a href="index.html#home" class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-text-greeny" style="color:#F3F3F3;" onclick="toggleNavigation()">Home</a>
+            <a href="Talks.html#talks" class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-text-greeny" style="color:#F3F3F3;" onclick="toggleNavigation()">Talks</a>
+        </div>
+
+        <!-- Menu -->
+        <div class="w3-padding-32">
+            <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+                <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-border-blue w3-bottombar w3-hover-text-white w3-hover-border-greeny" style="border-width: 2px !important; color:#F3F3F3">Annamaria Ortu</a>
+                <a href="Talks.html" class="w3-bar-item w3-button w3-hover-none w3-border-blue w3-bottombar w3-hover-border-greeny w3-hover-text-greeny w3-right w3-hide-small" style="border-width: 2px !important; color:#F3F3F3">Talks</a>
+                <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-border-blue w3-bottombar w3-hover-border-greeny w3-hover-text-greeny w3-right w3-hide-small" style="border-width: 2px !important; color:#F3F3F3">Home</a>
+            </div>
+        </div>
+
+        <!-- Photo Grid -->
+        <div class="w3-row-padding" style="margin-bottom:128px">
+            <div class="w3-padding-large">
+                <img src="Watercolour/tallship.jpg" style="width:100%; margin-top:2%">
+                <img src="Watercolour/burano.jpg" style="width:100%; margin-top:2%">
+            </div>
+            <div class="w3-half w3-padding-large">
+                <img src="Watercolour/casette.jpg" style="width:100%; margin-top:5%">
+                <img src="Watercolour/balena.jpg" style="width:100%; margin-top:5%">
+                <img src="Watercolour/pulcino.jpg" style="width:100%; margin-top:5%">
+                <img src="Watercolour/autunno.jpg" style="width:100%; margin-top:5%">
+            </div>
+
+            <div class="w3-half w3-padding-large">
+                <img src="Watercolour/caius.jpg" style="width:100%; margin-top:5%">
+                <img src="Watercolour/moloaudace.jpg" style="width:100%; margin-top:5%">
+                <img src="Watercolour/spiaggia_q.jpg" style="width:100%; margin-top:5%">
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+    <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-padding-large w3-border-top w3-center w3-margin-top-4">
+                <p><span>© 2023 - Annamaria Ortu</span></p>
+                 <p class="w3-small"><span>This website was made using <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>.</span></p> 
+              <!-- End footer -->
+        </footer>
+
+
+</body>
+
+<script>
+        // Function to toggle mobile navigation
+        function toggleNavigation() {
+          let nav = document.getElementById("mobile-nav");
+          if (nav.classList.contains('w3-show')) {
+            nav.classList.remove('w3-show');
+          } else { 
+            nav.classList.add('w3-show');
+          }
+        }
+</script>
+
+</html>

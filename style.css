@@ -58,6 +58,14 @@ body * {
   .w3-hover-text-greeny:hover{
     color:#38761d!important
   }
+
+  .w3-hover-text-white:hover{
+    color:#F3F3f3!important
+  }
+
+  .w3-border-blue{
+    border-color:#052a42!important;
+  }
   
   /*Containers*/
   
@@ -135,6 +143,10 @@ body * {
   
   .w3-margin-top-20-percent {
     margin-top: 20%;
+  }
+
+  .w3-margin-bottom-10-percent {
+    margin-bottom: 10%;
   }
   
   .w3-sticky {
