@@ -51,19 +51,19 @@ body * {
     background-color: #4B4B4B;    ;
   }
 
-  .w3-hover-border-greeny:hover{
+  .w3-hover-border-mygreen:hover{
     border-color:#38761d!important
   }
 
-  .w3-hover-text-greeny:hover{
+  .w3-hover-text-mygreen:hover{
     color:#38761d!important
   }
 
-  .w3-hover-text-white:hover{
+  .w3-hover-text-mywhite:hover{
     color:#F3F3f3!important
   }
 
-  .w3-border-blue{
+  .w3-border-myblue{
     border-color:#052a42!important;
   }
   
