@@ -9,6 +9,7 @@ body * {
     margin: 0;
     scroll-behavior: smooth;
     background-color: #F3F3f3;
+    line-height: 1.6;
   }
   
   h1,
