@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "Edinburgh, UK",
+    55.953251,
+    -3.188267
+  ],
+  [
     "Cambridge, UK",
     52.205336,
     0.128224
@@ -38,5 +43,35 @@ var addressPoints = [
     "Firenze, Italy",
     43.801055,
     11.242141
+  ],
+  [
+    "Levico Terme, Italy",
+    46.011108,
+    11.302610
+  ],
+  [
+    "Montpellier, France",
+    43.610767,
+    3.876716
+  ],
+  [
+    "Le Croisic, France",
+    47.295065,
+    -2.545353
+  ],
+  [
+    "Paris, France",
+    48.700478,
+    2.171845
+  ],
+  [
+    "Muenster, Germany",
+    51.960667,
+    7.626135
+  ],
+  [
+    "Aarhus, Denmark",
+    56.149375,
+    10.212509
   ]
 ];
