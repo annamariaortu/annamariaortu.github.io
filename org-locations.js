@@ -73,5 +73,15 @@ var addressPoints = [
     "Aarhus, Denmark",
     56.149375,
     10.212509
+  ],
+  [
+    "Parma, Italy",
+    44.802204,
+    10.327028
+  ],
+  [
+    "Milano, Italy",
+    45.509286,
+    9.1505976
   ]
 ];

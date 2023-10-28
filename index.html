@@ -38,7 +38,9 @@
       <!-- SOCIAL SECTION -->
       <section class="image-section w3-quarter w3-fixed w3-padding-small">
         <!--IMAGE/AVATAR-->
+        <div class="w3-display-container">
         <img src="profile.jpg" class="w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        </div>
         <!--SCIAL NETWORK BUTTONS-->
         <!--<div class="links w3-margin-top w3-padding-small">
           <a class="icon-link w3-text-sand w3-hover-text-amber" href="#facebook" target="_blank">
@@ -58,7 +60,7 @@
         <div id="contact" class="w3-container w3-margin-top-20-percent w3-serif">
             <h2 style="color:#F3F3f3">Annamaria Ortu</h2>
             <p><i>E-mail</i>: aortu [at] sissa [dot] it</p>
-            <p><i>Office</i>: Office 102, SISSA, Via Bonomea 265, 34136 Trieste, Italy</p>
+            <!--<p><i>Office</i>: Office 102, SISSA, Via Bonomea 265, 34136 Trieste, Italy</p>-->
         </div> 
         <!--CV DOWNLOAD BUTTON-->
         <div class="w3-container w3-padding-16">
@@ -90,18 +92,21 @@
           HOME SECTION
           <div id="home" class="home w3-container w3-margin-top-4 w3-serif">
             <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
-            <h1>Annamaria Ortu</h2>
+            <h2>Annamaria Ortu</h2>
             <p></p>
           </div>-->
 
           <!--ABOUT SECTION-->
           <div id= "about" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
-            <h2>ABOUT</h2>
-            <p class="w3-container"> 
-                I am a PhD student in Geometry at <a href="https://www.sissa.it">SISSA</a>, Trieste, Italy. I started the fourth and final year in October 2022. My supervisors are <a href="https://www.maths.gla.ac.uk/~rdervan/">Ruadhaí Dervan</a> and <a href="https://mate.unipv.it/stoppa/">Jacopo Stoppa</a>.
-            </p>
+            <h2>ABOUT
+                <!--<p id="date"class="w3-right w3-small"></p>-->
+            </h2>
             <p class="w3-container">
-              Before, I studied Mathematics at the University of Milan "Statale" and at the University of Trieste, where I live since 2017. In 2022 I spent some time at the University of Cambridge as a visiting PhD student, hosted by Ruadhaí Dervan.
+              I am a postdoc in Geometry at the University of Gothenburg, Sweden.
+            </p>
+            <p class="w3-container"> 
+              I obtained my PhD at <a href="https://www.sissa.it">SISSA</a>, Trieste, Italy, in September 2023, under the supervision of <a href="https://www.maths.gla.ac.uk/~rdervan/">Ruadhaí Dervan</a> and <a href="https://mate.unipv.it/stoppa/">Jacopo Stoppa</a>.
+              Before, I studied Mathematics at the University of Milan "Statale" and at the University of Trieste. In 2022 I spent some time at the University of Cambridge as a visiting PhD student, hosted by Ruadhaí Dervan.
             </p>
             <p class="w3-container">
               I am Italian.
@@ -112,18 +117,29 @@
           <div id="research" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
             <h2>RESEARCH</h2>
             <div class="w3-container w3-serif">
-              <p>My research focus is on complex geometry, mainly Kähler manifolds with special curvature properties and the link with algebro-geometric stability conditions and moduli problems. Currently, I am studying special Kähler metrics on holomorphic fibrations, their geometry and their moduli spaces.
+              <p>My research focus is on complex geometry, mainly Kähler manifolds with special curvature properties and the link with algebro-geometric stability conditions and moduli problems. Currently, I am working on the geometric properties of holomorphic fibrations.
               </p>
-              </div>
+              <p>
+                My PhD thesis, titled <b>The geometry of holomorphic submersions, their deformations and moduli</b>, is avaiable on <a href="https://iris.sissa.it/handle/20.500.11767/134130">Iris</a>.
+            </p>
+            </div>
             <h3>Articles</h3>
             <div>
               <ul>
                   <li>
-                    <b>The analytic moduli space of holomorphic submersions</b>. arXiv: <a href="https://arxiv.org/abs/2306.09137">2306.09137</a>, 2023.
+                    <b>The analytic moduli space of holomorphic submersions</b>. arXiv preprint: <a href="https://arxiv.org/abs/2306.09137">2306.09137</a>, 2023.
+                    <button class="w3-button w3-padding-small w3-hover-text-mygreen w3-hover-none" onclick="abstract2()">Abstract</button>
+                    <div id="abstract2" class="w3-container w3-border-left w3-text-gray" style="display:none;">
+                      <p>We construct a moduli space that parametrises stable proper holomorphic submersions over a fixed compact Kaehler base. Stability is described in terms of the existence of a canonical relatively Kaehler metric on the submersion, called an optimal symplectic connection. The construction of the moduli space combines techniques from geometric invariant theory with the study of the geometric PDE defining an optimal symplectic connection. A special case of this moduli space is the moduli space of vector bundles over a compact Kaehler manifold. We also show that the moduli space is a Hausdorff complex space equipped with a Weil-Petersson type Kaehler metric.</p>
+                    </div>
                   </li>
                 <li>
                     <b>Optimal symplectic connections and deformations of holomorphic submersions</b>. arXiv: <a href="https://arxiv.org/abs/2201.12562">2201.12562</a>, 2022. <i>(Advances in Mathematics, Vol 414, 2023. <a href="https://doi.org/10.1016/j.aim.2023.108868">https://doi.org/10.1016/j.aim.2023.108868</a>.)</i>
-                </li>
+                    <button class="w3-button w3-padding-small w3-hover-text-mygreen w3-hover-none" onclick="abstract1()">Abstract</button>
+                    <div id="abstract1" class="w3-container w3-border-left w3-text-gray" style="display:none;">
+                      <p>We give a general construction of extremal Kaehler metrics on the total space of certain holomorphic submersions, extending results of Dervan-Sektnan, Fine, and Hong. We consider submersions whose fibres are <i>analytically K-seminstable</i>, i.e. they admit a degeneration to Kaehler manifolds with constant scalar curvature, in a way that is compatible with the fibration structure. On these fibrations we phrase a partial differential equation whose solutions, called optimal symplectic connections, represent a canonical choice of a relatively Kaehler metric. We use the notion of an optimal symplectic connection and the geometry related to it to construct Kaehler metrics with constant scalar curvature and extremal metrics on the total space, in adiabatic classes.</p>
+                    </div>
+                  </li>
               </ul>
             </div>
           </div>
@@ -140,7 +156,7 @@
             <p class="w3-container">
                   In 2024 I will partecipate to the programme <b><i>New Equivariant Methods in Geometry</i></b> at the Isaac Newton Institute in Cambridge (<a href="https://www.newton.ac.uk/event/emg/">webpage</a>).
             </p>  
-            <p class="w3-container" onclick="myFunction()">Sometimes I speak about my work in <a href="Talks.html#talks">conferences and seminars</a>.
+            <p class="w3-container" onclick="myFunction()">Sometimes I speak about my work at <a href="Talks.html#talks">conferences and seminars</a>.
             </p>     
           <p class="w3-container">
             I have organised seminar series for phd students:
@@ -190,6 +206,13 @@
             </div>
           </div>
 
+
+          <!--<div class="w3-right">
+            <p><script type="text/javascript" src="datetime.js">
+              // show date of last modified
+              </script>
+            </p>
+          </div>-->
         <!--FOOTER-->
         <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
         <footer class="w3-container w3-padding-large w3-border-top w3-center w3-margin-top-4">
@@ -217,16 +240,26 @@
       feather.replace()
     </script>
     <script>
-      // Function to create a show/hide div
-      function showhide() {
-        var x = document.getElementById("myDIV");
-        if (x.style.display === "none") {
-          x.style.display = "block";
+      //showhide abstract
+      function abstract1() {
+        var y = document.getElementById("abstract1");
+        if (y.style.display === "none") {
+          y.style.display = "block";
         } else {
-          x.style.display = "none";
+          y.style.display = "none";
         }
       }
-      </script>
+    </script>
+    <script>
+      function abstract2() {
+        var y = document.getElementById("abstract2");
+        if (y.style.display === "none") {
+          y.style.display = "block";
+        } else {
+          y.style.display = "none";
+        }
+      }
+    </script>
       <script>
         // Get the button
         let mybutton = document.getElementById("myBtn");
@@ -248,6 +281,15 @@
           document.documentElement.scrollTop = 0;
         }
         </script>
+    
+    <!--<script>
+      // show date of last modified
+      const n =  new Date(document.lastModified);
+      y = n.getFullYear();
+      m = n.getMonth() + 1;
+      d = n.getDate();
+      document.getElementById("date").innerHTML = "Last updated "+ d + "." + m + "." + y;
+    </script>-->
       
   </body>
 </html>
