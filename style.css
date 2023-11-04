@@ -17,7 +17,7 @@ body * {
   h3,
   h4 {
     font-family: 'Montserrat, Verdana', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     color:#0c4466;
   }
   h2 {
@@ -26,12 +26,12 @@ body * {
   
   ul li {
     list-style-type: circle;
-    font-family: Sanchez; 
+    font-family: "Sanchez"; 
     border: none !important;
   }
 
   a {
-    font-family: Sanchez; 
+    font-family: 'Sanchez'; 
     color: #38761d;
   }
 
