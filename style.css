@@ -35,6 +35,11 @@ body * {
     color: #38761d;
   }
 
+  figcaption {
+    font-size: 0.85em;
+    color: grey;
+  }
+
   footer{
     background-image: url('./cambridge.png');
     background-size: cover;
