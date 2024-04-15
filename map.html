@@ -23,7 +23,10 @@
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css" />
 		<script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
-		</head>
+		<style>
+			img.huechange { filter: hue-rotate(120deg); }
+		</style>
+	</head>
     <body>
 <!-- !PAGE CONTENT! -->
 <div class="w3-content w3-padding-large w3-padding-32" style="max-width:1500px">
@@ -44,10 +47,19 @@
     		for (var i = 0; i < addressPoints.length; i++) {
     			var a = addressPoints[i];
     			var title = a[0];
-    			var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
+    			var marker = L.marker(new L.LatLng(a[1], a[2]),{ title: title });
     			marker.bindPopup(title);
     			markers.addLayer(marker);
     		}
+			var milano = L.marker([45.4637, 9.1885]).addTo(map);
+				milano._icon.classList.add("huechange");
+				markers.addLayer(milano);
+			var trieste = L.marker([45.64325, 13.7903]).addTo(map);
+				trieste._icon.classList.add("huechange");
+				markers.addLayer(trieste);
+			var gothenburg = L.marker([57.70, 11.96]).addTo(map);
+				gothenburg._icon.classList.add("huechange");
+				markers.addLayer(gothenburg);
     		map.addLayer(markers);
     		map.zoomIn();
 		</script>
@@ -55,6 +67,16 @@
 		
 		<!-- Menu -->
         <div class="w3-padding-32 w3-hide-small">
+			<table style="width:100%">
+				<tr>
+				  <td><span class="bluedot"></span></td>
+				  <td>places where I gave talks</td>
+				</tr>
+				<tr>
+				  <td><span class="reddot"></span></td>
+				  <td>places where I lived as a student or researcher</td>
+				</tr>
+			  </table>
 				<div class="w3-container w3-padding-large">
 					<a href="Talks.html" class="w3-button w3-round w3-border w3-border-myblue w3-hover-pale-green">go back</a>
 				</div>

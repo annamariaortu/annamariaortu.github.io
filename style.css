@@ -73,6 +73,24 @@ body * {
     border-color:#052a42!important;
   }
   
+  .bluedot {
+    height: 25px;
+    width: 25px;
+    background-color: #427fc4;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .reddot {
+    height: 25px;
+    width: 25px;
+    background-color: #b14d69;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  table, th, td {
+    border:none;
+  }
   /*Containers*/
 
   #myBtn {
