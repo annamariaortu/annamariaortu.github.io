@@ -125,6 +125,14 @@
             <h3>Articles</h3>
             <div>
               <ul>
+                  <li>
+                      <b>Moment maps and stability of holomorphic submersions</b>. arXiv preprint: <a href="https://arxiv.org/abs/2407.03246">2407.03246</a>, 2024.
+                      <button class="w3-button w3-padding-small w3-hover-text-mygreen w3-hover-none" onclick="abstract4()">Abstract</button>
+                      <div id="abstract4" class="w3-container w3-border-left w3-text-gray" style="display:none;">
+                        <p>We prove a finite-dimensional moment map property for certain canonical relatively Kähler metrics on holomorphic fibrations, called optimal symplectic connections. We then relate the existence of zeroes of this moment map to the stability of the fibration, where the stability property we consider is a version of K-stability that takes into account the fibration structure, first introduced by Dervan--Sektnan. In particular, we prove that a stable deformation of a fibration admitting an optimal symplectic connection still admits an optimal symplectic connection, through a new approach using the finite-dimensional moment map properties and the moment map flow.
+                        We include an appendix with a proof of a result considered by Székelyhidi that a K-polystable deformation of a constant scalar curvature Kähler manifold still admits a constant scalar curvature metric, using the same technique.</p>
+                      </div>
+                    </li>
                 <li>
                   <b>Constant scalar curvature Kähler metrics and semistable vector bundles</b>. <i>with <a href="https://sites.google.com/cirget.ca/lars-sektnan/">Lars Martin Sektnan</a></i>. arXiv preprint: <a href="https://arxiv.org/abs/2406.08284">2406.08284</a>, 2024.
                   <button class="w3-button w3-padding-small w3-hover-text-mygreen w3-hover-none" onclick="abstract3()">Abstract</button>
@@ -267,6 +275,18 @@
         }
       }
     </script>
+     <script>
+      //showhide abstract
+      function abstract4() {
+        var y = document.getElementById("abstract4");
+        if (y.style.display === "none") {
+          y.style.display = "block";
+        } else {
+          y.style.display = "none";
+        }
+      }
+    </script>
+
       <script>
         // Get the button
         let mybutton = document.getElementById("myBtn");
