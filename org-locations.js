@@ -88,5 +88,10 @@ var addressPoints = [
     "Evanston, IL, USA",
     42.056115817713554,
     -87.67511835723406
+  ],
+  [
+    "Cargese, Corsica",
+    42.1349,
+    8.5958
   ]
 ]
