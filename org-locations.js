@@ -93,5 +93,10 @@ var addressPoints = [
     "Cargese, Corsica",
     42.1349,
     8.5958
+  ],
+  [
+    "Berkeley, CA, USA",
+    37.871960,
+    -122.259094
   ]
 ]
