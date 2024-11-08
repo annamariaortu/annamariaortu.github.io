@@ -51,12 +51,6 @@
     			marker.bindPopup(title);
     			markers.addLayer(marker);
     		}
-			var milano = L.marker([45.4637, 9.1885]).addTo(map);
-				milano._icon.classList.add("huechange");
-			var trieste = L.marker([45.64325, 13.7903]).addTo(map);
-				trieste._icon.classList.add("huechange");
-			var gothenburg = L.marker([57.70, 11.96]).addTo(map);
-				gothenburg._icon.classList.add("huechange");
     		map.addLayer(markers);
     		map.zoomIn();
 		</script>
@@ -65,30 +59,14 @@
 		<!-- Menu -->
         <div class="w3-padding-32 w3-hide-small">
 			<table style="width:100%">
-				<tr>
-				  <td><span class="bluedot"></span></td>
-				  <td>places where I gave talks</td>
-				</tr>
-				<tr>
-				  <td><span class="reddot"></span></td>
-				  <td>places where I lived as a student or researcher</td>
-				</tr>
+				
 			  </table>
 				<div class="w3-container w3-padding-large">
 					<a href="Talks.html" class="w3-button w3-round w3-border w3-border-myblue w3-hover-pale-green">go back</a>
 				</div>
 		</div>
 		<div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
-			<table style="width:100%">
-				<tr>
-				  <td><span class="bluedot"></span></td>
-				  <td>places where I have given talks</td>
-				</tr>
-				<tr>
-				  <td><span class="reddot"></span></td>
-				  <td>places where I have lived as a student or researcher</td>
-				</tr>
-			  </table>
+			
 			<div class="w3-container w3-padding-large">
 				<a href="Talks.html#talks" class="w3-button w3-round w3-border w3-border-myblue w3-hover-pale-green" onclick="toggleNavigation()">Go back</a>
 			</div>

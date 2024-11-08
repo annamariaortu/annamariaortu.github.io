@@ -13,7 +13,7 @@
   </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Talks</title>
+    <title>Activities</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +46,7 @@
       <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
         <!--<a href="#research" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-mygreen w3-hover-text-mygreen" onclick="toggleNavigation()">Research</a>-->
         <a href="index.html#home" class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-text-mygreen" onclick="toggleNavigation()">Home</a>
-        <a href="Talks.html#talks" class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-text-mygreen" onclick="toggleNavigation()">Talks</a>
+        <a href="Talks.html#activities" class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-text-mygreen" onclick="toggleNavigation()">Talks</a>
       </div>
 
       <!-- SOCIAL SECTION -->
@@ -97,7 +97,7 @@
         </div>-->
         <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
           <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-mygreen" style="border-width: 2px !important;">Annamaria Ortu</a>
-          <a href="Talks.html" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-mygreen w3-hover-text-mygreen w3-right w3-hide-small" style="border-width: 2px !important;">Talks</a>
+          <a href="Talks.html" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-mygreen w3-hover-text-mygreen w3-right w3-hide-small" style="border-width: 2px !important;">Activities</a>
           <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-mygreen w3-hover-text-mygreen w3-right w3-hide-small" style="border-width: 2px !important;">Home</a>
         </div>
       
@@ -110,14 +110,13 @@
           </div>-->
 
           <!--Talks-->
-          <div id="talks" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
-            <h3>Upcoming travels</h3>
-            <div class="w3-container w3-serif">
-              <ul>
+          <div id="activities" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">   
+              <div>
+                  <p class="w3-container">Sometimes I speak about my work at <button class="w3-button w3-padding-small w3-text-mygreen w3-hover-text-mygreen w3-hover-none" onclick="talks()">conferences and seminars</button>.
+                </p>
+              </div>
                 
-              </ul>
-            </div>
-            <h3>Talks at conferences and seminars</h3>
+            <div id="talks" class="w3-container w3-border-left" style="display:none;">
             <div class="w3-container w3-serif">
               <ul>
                 <li>
@@ -198,10 +197,34 @@
               </ul>
             </div>
             <p><i>A more complete list of the talks I gave is in my CV. If you prefer a more visual representation, look at the map below.</i></p>
-            <div class="w3-container w3-padding-large w3-serif">
-                <h4><a href="map.html">Map</a></h4>
+            </div>
+            <div class="w3-container w3-serif">
+              <p>Upcoming travels:</p>
+                <ul>
+                  <li>
+                    27-29.11.2024, Conference <b><i>Kähler and non-Archimedean geometry in Lyon</i></b> (<a href="https://sites.google.com/view/lyon-workshop-2024/overview">webpage</a>).
+                  </li>
+                  <li>
+                    09-10.12.2024, Conference <b><i>GLEN in Glasgow</i></b> (<a href="https://www.maths.gla.ac.uk/~rdervan/GLEN.html">webpage</a>).
+                  </li>
+                </ul>
               </div>
-            <!--
+            <div>
+                <p class="w3-container">
+                      In 2024 I partecipated to the programme <b><i>New Equivariant Methods in Geometry</i></b> at the Isaac Newton Institute in Cambridge (<a href="https://www.newton.ac.uk/event/emg/">webpage</a>).
+                </p>
+            </div>
+            <div>
+                <p class="w3-container">
+                  I have organised the Complex Geometry Seminar at the Isaac Newton Institute in Cambridge (February 2024), the Junior Geometry and Mathematical Physics seminar (<a href="https://sites.google.com/view/sissa-junior-gmp/home-page">website</a>) at SISSA (A.A. 2022/23) and the online Graduate Inter-university Math seminar (<a href="https://sites.google.com/view/gim-seminars/home-page?authuser=0">website</a>) (2020 and 2021).
+                </p>
+               </div>
+
+               <div class="w3-container w3-serif">
+                  <h4><a href="map.html">Map</a></h4>
+                </div>
+
+              <!--
             <div class="w3-container w3-padding-large w3-serif">
                 <h4>Visual representation</h4>
               </div>
@@ -249,6 +272,16 @@
         <!--END OF CV SECTION-->
       </section>      
     </section>
+    <script>
+        function talks() {
+          var y = document.getElementById("talks");
+          if (y.style.display === "none") {
+            y.style.display = "block";
+          } else {
+            y.style.display = "none";
+          }
+        }
+      </script>
     <script>
       // Function to toggle mobile navigation
       function toggleNavigation() {
