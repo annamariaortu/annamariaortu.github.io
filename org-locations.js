@@ -107,5 +107,10 @@ var addressPoints = [
     "Krakow, Poland",
     50.061389,
     19.937222
+  ],
+  [
+    "Lyon, France",
+    45.763420,
+    4.834277
   ]
 ]
