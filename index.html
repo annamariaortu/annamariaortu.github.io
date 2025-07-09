@@ -19,6 +19,8 @@
     <!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
   </head>
   <body>   
@@ -76,12 +78,6 @@
       </button>
       <section id="home" class="w3-threequarter w3-padding-large w3-right">
         <!--DESKTOP NAVIGATION-->
-        <!--<div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
-          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-pale-green" style="border-width: 2px !important;">Annamaria Ortu</a>
-          <a href="#links" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Links</a>
-          <a href="#research" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Research</a>
-          <a href="#activities" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Activities</a>
-        </div>-->
         <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
           <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-mygreen" style="border-width: 2px !important;">Annamaria Ortu</a>
           <a href="Talks.html" class="w3-bar-item w3-button w3-hover-none w3-border-light-grey w3-bottombar w3-hover-border-mygreen w3-hover-text-mygreen w3-right w3-hide-small" style="border-width: 2px !important;">Activities</a>
@@ -96,16 +92,29 @@
           </div>-->
 
           <!--ABOUT SECTION-->
-          <div id= "about" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
-            <h2>ABOUT
-                <!--<p id="date"class="w3-right w3-small"></p>-->
+          <div id= "about" class="w3-container w3-padding-large">
+            <h2>ABOUT 
+              <!--  
+              <p class="w3-right w3-small">
+                <span>
+                <a href="https://www.scopus.com/authid/detail.uri?authorId=57453687200" target="_blank">
+                  <i style="color: #e96f1d;" class="ai ai-scopus ai-2x"></i>
+                </a>
+                <a href="https://orcid.org/0000-0002-5636-276X" target="_blank">
+                  <i style="color: #b2c046;" class="ai ai-orcid ai-2x"></i>
+                </a>
+               </span>
+              </p>-->
             </h2>
             <p class="w3-container">
               I am a postdoc in Geometry at the University of Gothenburg, Sweden.
             </p>
             <p class="w3-container"> 
-              I obtained my PhD at <a href="https://www.sissa.it">SISSA</a>, Trieste, Italy, in September 2023, under the supervision of <a href="https://www.maths.gla.ac.uk/~rdervan/">Ruadhaí Dervan</a> and <a href="https://mate.unipv.it/stoppa/">Jacopo Stoppa</a>.
+              I obtained my PhD at <a href="https://www.sissa.it" target="_blank">SISSA</a>, Trieste, Italy, in September 2023, under the supervision of <a href="https://www.maths.gla.ac.uk/~rdervan/" target="_blank">Ruadhaí Dervan</a> and <a href="https://mate.unipv.it/stoppa/" target="_blank">Jacopo Stoppa</a>.
               Before, I studied Mathematics at the University of Milan "Statale" and at the University of Trieste. In 2022 I spent some time at the University of Cambridge as a visiting PhD student, hosted by Ruadhaí Dervan.
+            </p>
+            <p class="w3-container">
+              My research focus is on complex geometry, Kähler manifolds with special curvature properties, the link with algebro-geometric stability conditions and analytic moduli problems. Currently, I am working on the geometric properties of holomorphic fibrations.
             </p>
             <p class="w3-container">
               I am Italian.
@@ -113,17 +122,13 @@
           </div>
 
           <!--RESEARCH-->
-          <div id="research" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
+          <div id="research" class="w3-container w3-padding-large ">
             <h2>RESEARCH</h2>
-            <div class="w3-container w3-serif">
-              <p>My research focus is on complex geometry, mainly Kähler manifolds with special curvature properties and the link with algebro-geometric stability conditions and moduli problems. Currently, I am working on the geometric properties of holomorphic fibrations.
-              </p>
-            </div>
-            <h3>Articles</h3>
+            <p class="w3-container">My papers are on <a href="https://arxiv.org/search/math?searchtype=author&query=Ortu%2C+A" target="_blank">arXiv</a>.</p>
             <div>
               <ul>
                   <li>
-                      <b>Moment maps and stability of holomorphic submersions</b>. arXiv preprint: <a href="https://arxiv.org/abs/2407.03246">2407.03246</a>, 2024. Updated version that includes the case of obstructed deformations: <a href="./MomentMap.pdf" style="white-space:normal;" target="_blank">here</a>
+                      <b>Moment maps and stability of holomorphic submersions</b>. arXiv preprint: <a href="https://arxiv.org/abs/2407.03246" target="_blank">2407.03246</a>, 2024. Updated version that includes the case of obstructed deformations: <a href="./MomentMap.pdf" style="white-space:normal;" target="_blank">here</a>
                       <button class="w3-button w3-padding-small w3-hover-text-mygreen w3-hover-none" onclick="abstract4()">Abstract</button>
                       <div id="abstract4" class="w3-container w3-border-left w3-text-gray" style="display:none;">
                         <p>We prove a finite-dimensional moment map property for certain canonical relatively Kähler metrics on holomorphic fibrations, called optimal symplectic connections. We then relate the existence of zeroes of this moment map to the stability of the fibration, where the stability property we consider is a version of K-stability that takes into account the fibration structure, first introduced by Dervan--Sektnan. In particular, we prove that a stable deformation of a fibration admitting an optimal symplectic connection still admits an optimal symplectic connection, through a new approach using the finite-dimensional moment map properties and the moment map flow.
@@ -131,21 +136,21 @@
                       </div>
                     </li>
                 <li>
-                  <b>Constant scalar curvature Kähler metrics and semistable vector bundles</b>. <i>with <a href="https://sites.google.com/cirget.ca/lars-sektnan/">Lars Martin Sektnan</a></i>. arXiv preprint: <a href="https://arxiv.org/abs/2406.08284">2406.08284</a>, 2024.
+                  <b>Constant scalar curvature Kähler metrics and semistable vector bundles</b>. <i>with <a href="https://sites.google.com/cirget.ca/lars-sektnan/" target="_blank">Lars Martin Sektnan</a></i>. arXiv preprint: <a href="https://arxiv.org/abs/2406.08284">2406.08284</a>, 2024.
                   <button class="w3-button w3-padding-small w3-hover-text-mygreen w3-hover-none" onclick="abstract3()">Abstract</button>
                   <div id="abstract3" class="w3-container w3-border-left w3-text-gray" style="display:none;">
                     <p>We give a necessary and sufficient condition for the projectivisation of a slope semistable vector bundle to admit constant scalar curvature Kähler (cscK) metrics in adiabatic classes, when the base admits a constant scalar curvature metric. More precisely, we introduce a stability condition on vector bundles, which we call adiabatic slope stability, which is a weaker version of K-stability and involves only test configurations arising from subsheaves of the bundle. We prove that, for a simple vector bundle with locally free graded object, adiabatic slope stability is equivalent to the existence of cscK metrics on the projectivisation, which solves a problem that has been open since work of Ross--Thomas. In particular, this shows that the existence of cscK metrics is equivalent to K-stability in this setting. We provide a numerical criterion for the positivity of the Donaldson-Futaki invariant associated to said test configurations in terms of Chern classes of the vector bundle. This criterion is computable in practice and we present an explicit example satisfying our assumptions which is coming from a vector bundle that does not admit a Hermite-Einstein metric.</p>
                   </div>
                 </li>
                   <li>
-                    <b>The analytic moduli space of holomorphic submersions</b>. arXiv preprint: <a href="https://arxiv.org/abs/2306.09137">2306.09137</a>, 2023.
+                    <b>The analytic moduli space of holomorphic submersions</b>. arXiv preprint: <a href="https://arxiv.org/abs/2306.09137" target="_blank">2306.09137</a>, 2023.
                     <button class="w3-button w3-padding-small w3-hover-text-mygreen w3-hover-none" onclick="abstract2()">Abstract</button>
                     <div id="abstract2" class="w3-container w3-border-left w3-text-gray" style="display:none;">
                       <p>We construct a moduli space that parametrises stable proper holomorphic submersions over a fixed compact Kaehler base. Stability is described in terms of the existence of a canonical relatively Kaehler metric on the submersion, called an optimal symplectic connection. The construction of the moduli space combines techniques from geometric invariant theory with the study of the geometric PDE defining an optimal symplectic connection. A special case of this moduli space is the moduli space of vector bundles over a compact Kaehler manifold. We also show that the moduli space is a Hausdorff complex space equipped with a Weil-Petersson type Kaehler metric.</p>
                     </div>
                   </li>
                 <li>
-                    <b>Optimal symplectic connections and deformations of holomorphic submersions</b>. arXiv: <a href="https://arxiv.org/abs/2201.12562">2201.12562</a>, 2022. <i>(Advances in Mathematics, Vol 414, 2023. <a href="https://doi.org/10.1016/j.aim.2023.108868">https://doi.org/10.1016/j.aim.2023.108868</a>.)</i>
+                    <b>Optimal symplectic connections and deformations of holomorphic submersions</b>. arXiv: <a href="https://arxiv.org/abs/2201.12562" target="_blank">2201.12562</a>, 2022. <i>(Advances in Mathematics, Vol 414, 2023. <a href="https://doi.org/10.1016/j.aim.2023.108868" target="_blank">https://doi.org/10.1016/j.aim.2023.108868</a>.)</i>
                     <button class="w3-button w3-padding-small w3-hover-text-mygreen w3-hover-none" onclick="abstract1()">Abstract</button>
                     <div id="abstract1" class="w3-container w3-border-left w3-text-gray" style="display:none;">
                       <p>We give a general construction of extremal Kaehler metrics on the total space of certain holomorphic submersions, extending results of Dervan-Sektnan, Fine, and Hong. We consider submersions whose fibres are <i>analytically K-seminstable</i>, i.e. they admit a degeneration to Kaehler manifolds with constant scalar curvature, in a way that is compatible with the fibration structure. On these fibrations we phrase a partial differential equation whose solutions, called optimal symplectic connections, represent a canonical choice of a relatively Kaehler metric. We use the notion of an optimal symplectic connection and the geometry related to it to construct Kaehler metrics with constant scalar curvature and extremal metrics on the total space, in adiabatic classes.</p>
@@ -153,62 +158,40 @@
                   </li>
               </ul>
               <p>
-                  My PhD thesis, titled <i>The geometry of holomorphic submersions, their deformations and moduli</i>, can be found <a href="./TesiPhD.pdf" style="white-space:normal;" target="_blank">here</a> (also on <a href="https://iris.sissa.it/handle/20.500.11767/134130">Iris</a>).
+                  My PhD thesis, titled <b>The geometry of holomorphic submersions, their deformations and moduli</b>, can be found <a href="./TesiPhD.pdf" style="white-space:normal;" target="_blank">here</a> (also on <a href="https://iris.sissa.it/handle/20.500.11767/134130" target="_blank">Iris</a>).
               </p>
             </div>
           </div>
 
-        <!--ACTIVITIES-->
-        <!--<div id="activities" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
-          <h2>ACTIVITIES</h2>
-          <div class="w3-container w3-serif">
-            <p>
-              I completed a Bachelor in Mathematics at the University of Milan "Statale" in 2017. Since then, I live in Trieste, where I did a Master in Mathematics under the supervision of Jacopo Stoppa. In 2022 I spent some time at the University of Cambridge as a visiting PhD student, hosted by Ruadhaí Dervan.
-            </p>
-          </div>
-          <h4>Travels and talks</h4>
-          <div>
-            <p class="w3-container">
-                  In 2024 I partecipated to the programme <b><i>New Equivariant Methods in Geometry</i></b> at the Isaac Newton Institute in Cambridge (<a href="https://www.newton.ac.uk/event/emg/">webpage</a>).
-            </p>  
-            <p class="w3-container" onclick="myFunction()">Sometimes I speak about my work at <a href="Talks.html#talks">conferences and seminars</a>.
-            </p>
-          </div>
-          <div>
-          <p class="w3-container">
-            I have organised the Complex Geometry Seminar at the Isaac Newton Institute in Cambridge (February 2024), the Junior Geometry and Mathematical Physics seminar (<a href="https://sites.google.com/view/sissa-junior-gmp/home-page">website</a>) at SISSA (A.A. 2022/23) and the online Graduate Inter-university Math seminar (<a href="https://sites.google.com/view/gim-seminars/home-page?authuser=0">website</a>) (2020 and 2021).
-          </p>
-         </div>
-        </div>-->
 
           <!--LINKS-->
-          <div id="links" class="w3-container w3-padding-large w3-margin-top-2 w3-serif">
+          <div id="links" class="w3-container w3-padding-large">
             <h2>LINKS</h2>
             <div class="w3-container" style="font-weight: 500;">
               <p>
-                My academic siblings are <a href="https://arxiv.org/search/math?query=Hallam%2C+Michael&searchtype=author&abstracts=show&order=-announced_date_first&size=50">Michael Hallam</a> and <a href="https://arxiv.org/search/math?query=McCarthy%2C+John+Benjamin&searchtype=author&abstracts=show&order=-announced_date_first&size=50">John Benjamin McCarthy</a>.
+                My academic siblings are <a href="https://arxiv.org/search/math?query=Hallam%2C+Michael&searchtype=author&abstracts=show&order=-announced_date_first&size=50" target="_blank">Michael Hallam</a> and <a href="https://arxiv.org/search/math?query=McCarthy%2C+John+Benjamin&searchtype=author&abstracts=show&order=-announced_date_first&size=50" target="_blank">John Benjamin McCarthy</a>.
               </p>
               <p>
-                 I am a member of <a href="https://www.europeanwomeninmaths.org">European Women in Mathematics</a>.
+                 I am a member of <a href="https://www.europeanwomeninmaths.org" target="_blank">European Women in Mathematics</a>.
               </p>
                 <p>
-                  Italian complex geometry network: <a href="https://gecogedi.dimai.unifi.it">GeCo GeDi</a>.
+                  Italian complex geometry network: <a href="https://gecogedi.dimai.unifi.it" target="_blank">GeCo GeDi</a>.
                 </p>
                 <ul>
                 <li>
-                   prof Izabella Laba's <a href="https://ilaba.wordpress.com/2013/02/09/gender-bias-101-for-mathematicians/">Gender bias 101 for mathematicians</a>
+                   prof Izabella Laba's <a href="https://ilaba.wordpress.com/2013/02/09/gender-bias-101-for-mathematicians/" target="_blank">Gender bias 101 for mathematicians</a>
                 </li>
                 <li>
-                  <a href="https://www.forbes.com/sites/quora/2012/01/16/what-is-it-like-to-have-an-understanding-of-very-advanced-mathematics/?sh=79180ba9e86c">What is it like to have an understanding of very advanced mathematics
+                  <a href="https://www.forbes.com/sites/quora/2012/01/16/what-is-it-like-to-have-an-understanding-of-very-advanced-mathematics/?sh=79180ba9e86c" target="_blank">What is it like to have an understanding of very advanced mathematics
                     </a>
                 </li>
                 <li>
-                  (In italian) <a href="https://www.ilpost.it/2011/02/28/sulla-ricerca-scientifica/">Cos'è la ricerca, davvero
+                  (In italian) <a href="https://www.ilpost.it/2011/02/28/sulla-ricerca-scientifica/" target="_blank">Cos'è la ricerca, davvero
                     </a>
                 </li>
               </ul>
               <p>
-                Most of my days look like <a href="https://xkcd.com/2797/">this</a>.
+                Most of my days look like <a href="https://xkcd.com/2797/" target="_blank">this</a>.
                 In my free time I paint with <a href="Watercolour.html">watercolours</a>, play the violin, and read books about feminism, climate change and space exploration.
               </p>
             </div>
@@ -219,7 +202,7 @@
         <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
         <footer class="w3-container w3-padding-large w3-border-top w3-center w3-margin-top-4">
           <p><span>© 2023 - Annamaria Ortu</span></p>
-           <p class="w3-small"><span>This website was made using <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>.</span></p> 
+           <p class="w3-small"><span>This website was made using <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>.</span></p> 
         <!-- End footer -->
         </footer>
 
