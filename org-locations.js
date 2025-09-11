@@ -112,5 +112,15 @@ var addressPoints = [
     "Lyon, France",
     45.763420,
     4.834277
+  ],
+  [
+    "Budapest, Hugary",
+    47.4979,
+    19.0402
+  ],
+  [
+    "Lausanne, Switzerland",
+    46.5197,
+    6.6323
   ]
 ]
