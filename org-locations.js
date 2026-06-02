@@ -122,5 +122,10 @@ var addressPoints = [
     "Lausanne, Switzerland",
     46.5197,
     6.6323
+  ],
+  [
+    "Bordeaux, France",
+    44.8416,
+    -0.5811
   ]
 ]
