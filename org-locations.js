@@ -124,6 +124,10 @@ var addressPoints = [
     6.6323
   ],
   [
+    "Quimper, France",
+    47.9967, -4.0964
+  ],
+  [
     "Bordeaux, France",
     44.8416,
     -0.5811
